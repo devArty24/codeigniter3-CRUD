@@ -25,16 +25,27 @@ First import the hospital.sql file
 ```sh
 dataBaseBackup/hospital.sql
 ```
-Adapt the variable $config['base_url'] in `application/config/config.php` in case you occupy port and the name of the root folder changes
+Adapt the variable `$config['base_url']` in `application/config/config.php` in case you occupy port and the name of the root folder changes
 
 ```sh
 $config['base_url'] = 'http://localhost/nameOfProject/';
 ```
+When a user is registered, simulate an email to the new user who has registered
 
+The configuration for the mail server is in `application/config/emai.php` there you must put the information of your mail server
 
-
-
-
+```sh
+$config = Array(
+    'protocol' => 'smtp', // Or pop3
+    'smtp_host' => 'host', // You're host name of server email
+    'smtp_port' => 000, // Number port
+    'smtp_user' => 'user', // You're user server email
+    'smtp_pass' => 'password', // You're password server email
+    'crlf' => "\r\n",
+    'newline' => "\r\n",
+    "mailtype"=>"html"
+  );
+```
 
 
 
