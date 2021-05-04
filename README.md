@@ -1,6 +1,6 @@
 # CRUD Codeigniter
 
-* [About Project]
+* [About Project](about-project)
 * [Key Features]
 * [Installation]
 
