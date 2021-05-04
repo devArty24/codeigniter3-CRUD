@@ -37,10 +37,10 @@ The configuration for the mail server is in `application/config/emai.php` there 
 ```sh
 $config = Array(
     'protocol' => 'smtp', // Or pop3
-    'smtp_host' => 'host', // You're host name of server email
+    'smtp_host' => 'host', // Your mail server hostname
     'smtp_port' => 000, // Number port
-    'smtp_user' => 'user', // You're user server email
-    'smtp_pass' => 'password', // You're password server email
+    'smtp_user' => 'user', // Your mail server username
+    'smtp_pass' => 'password', // Your mail server password
     'crlf' => "\r\n",
     'newline' => "\r\n",
     "mailtype"=>"html"
