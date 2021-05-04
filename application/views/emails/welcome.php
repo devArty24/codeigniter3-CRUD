@@ -1398,7 +1398,7 @@ body.outlook p {
                             <table>
                               <tr>
                                 <th>
-                                  <h1 class="text-center">Bienvenido al sistema <?=$nombre_usuario;?></h1>
+                                  <h1 class="text-center">Bienvenido al sistema '<?=$nombre_usuario;?>'</h1>
                                 </th>
                                 <th class="expander"></th>
                               </tr>
@@ -1429,7 +1429,7 @@ body.outlook p {
                                       </tr>
                                     </tbody>
                                   </table>
-                                  <center data-parsed=""> <img src="<?=base_url("assets/img/logo.png");?>" align="center" class="float-center"> </center>
+                                  <center data-parsed=""> <img src="<?=base_url("assets/img/logo.png");?>" align="center" class="float-center" style="width:70px;"> </center>
                                   <table class="spacer">
                                     <tbody>
                                       <tr>
@@ -1438,7 +1438,7 @@ body.outlook p {
                                     </tbody>
                                   </table>
                                   <h4>Hemos creado una cuenta en el sistema para ti.</h4>
-                                  <p>Los datos con los que fue dada de alta tu cuenta son: </p>
+                                  <p>Los datos con los que se te dio de alta son: </p>
                                   <p>Email: <strong><?=$correo;?></strong></p>
                                   <p>Tipo: <strong><?=$range;?></strong></p>
                                   <p>Contraseña: <strong><?=$contrasena;?></strong></p>
@@ -1451,10 +1451,10 @@ body.outlook p {
                                         <td>
                                           <table>
                                             <tr>
-                                              <th class="menu-item float-center"><a href="#">krakenacademy.com</a></th>
-                                              <th class="menu-item float-center"><a href="#">Facebook</a></th>
-                                              <th class="menu-item float-center"><a href="#">Twitter</a></th>
-                                              <th class="menu-item float-center"><a href="#">(408)-555-0123</a></th>
+                                              <th class="menu-item float-center"><!--<a href="#">krakenacademy.com</a>--></th>
+                                              <th class="menu-item float-center"><!--<a href="#">Facebook</a>--></th>
+                                              <th class="menu-item float-center"><!--<a href="#">Twitter</a>--></th>
+                                              <th class="menu-item float-center"><!--<a href="#">(408)-555-0123</a>--></th>
                                             </tr>
                                           </table>
                                         </td>

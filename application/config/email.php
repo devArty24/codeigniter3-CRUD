@@ -1,11 +1,11 @@
 <?php
 
-$config = Array(
-    'protocol' => 'smtp',
-    'smtp_host' => 'smtp.mailtrap.io',
-    'smtp_port' => 2525,
-    'smtp_user' => '7779de70778547',
-    'smtp_pass' => '2be13d1d73991d',
+  $config = Array(
+    'protocol' => 'smtp', // Or pop3
+    'smtp_host' => 'host', // You're host name of server email
+    'smtp_port' => 000, // Number port
+    'smtp_user' => 'user', // You're user server email
+    'smtp_pass' => 'password', // You're password server email
     'crlf' => "\r\n",
     'newline' => "\r\n",
     "mailtype"=>"html"
