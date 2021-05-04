@@ -25,7 +25,7 @@ First import the hospital.sql file
 ```sh
 dataBaseBackup/hospital.sql
 ```
-Adapt the variable '$config['base_url']' in 'application/config/config.php' in case you occupy port and the name of the root folder changes
+Adapt the variable $config['base_url'] in `application/config/config.php` in case you occupy port and the name of the root folder changes
 
 ```sh
 $config['base_url'] = 'http://localhost/nameOfProject/';
